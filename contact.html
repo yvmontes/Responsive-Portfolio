@@ -1,75 +1,60 @@
 <!DOCTYPE html>
-<head>
-<title>Contact</title>
-<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
+<html>
+<head><title>Contact</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" media="screen" href="style.css">
 </head>
-
 <body>
 
-    <header id="topheader">
-        <div class="container">
-            <a href="index.html" id="logo">Yvette Montes</a>
-             <nav>
-                <a href="index.html">About Me</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>
-    </header>
+  <ul class="topnav">
+    <li><a class="active" href="index.html"><h1>Yvette Montes</h1></a></li>
+    <li class="right"><a href="portfolio.html">Portfolio</a></li>
+    <li class="right"><a href="contact.html">Contact</a></li>
+    <li class="right"><a href="index.html">About</a></li>
+  </ul>
 
+<div class="row">
+  <div class="col-3 menu">
+  </div>
 
-    <div id="main-container" class="container">
+    <div class="content col-6">
+            <h1>Contact</h1>
 
-    <section class="main-section">
-        <h1>Contact</h1>
-
-        <form id="contact-form">
-            <ul>
-                <li>
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" placeholder="Jane Doe" 
-                    required="required"></label>
-                </li>
-                <li>
-                    <label for="email">Email</label>
-                    <input type="text" name="email" id="email" placeholder="example@gmail.com" 
-                    required="required"></label>
-                </li>
-                <li>
-                    <label for="message">Message</label>
-                    <textarea id="message" id="message" required="required"></textarea>
-                </li>
-            </ul>
-            <input type="submit" name="submit">
-
-        </form>
-
-    </section>
-
-
-    <section class="sidebar">
-        <div id="connect">
-            <h2>Connect with Me</h2>
-            <a href="https://github.com/yvmontes" target="new"><img src="assets/images/iconfinder_Github_381376.png" class="social" alt="GitHub"></a>
-            <a href="https://www.linkedin.com/in/yvette-montes-94a461168/" target="new"><img src="assets/images/iconfinder_linkedin_circle_gray_107149.png" class="social" alt="LinkedIn"></a>
-            <a href="https://stackexchange.com/users/14778107/yvette" target="new"><img src="assets/images/iconfinder_stackoverflow_1217146.png" class="social" alt="StackOverflow"></a>
-        </div>
-
-    </section>
-</div>
-
-
-<footer>
-    <div class="container">
-        &copy; Copyright 2019 Yvette Montes
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Jane Doe" 
+                        required="required"></label>
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input type="text" name="email" id="email" placeholder="example@gmail.com" 
+                        required="required"></label>
+                    </li>
+                    <li>
+                        <label for="message">Message</label>
+                        <textarea id="message" id="message" required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit" name="submit">
+    
+            </form>
+    
+        </section>
     </div>
-</footer>
-
-
-
+  
+    <div class="col-3 right">
+   
+      </div>
+    </div>
+    
+    <footer class="footer col-12">
+      <p>&copy; Copyright Yvette Montes</p>
+    </div>
+    
+    </body>
+    </html>
 
 </body>
-
 </html>
